@@ -8,10 +8,13 @@ This program will implement an optimal solution to the k-means clustering algori
 
 The program understands two command line parameters.
 
-'''Usage:
+Usage:
+
 [-k value] where value is the number of clusters to generate
+
 [-h] print usage message
-Defaults: k = 5'''
+
+Defaults: k = 5
 
 Enter kmeans to run the C version and generate test output. To run the Go program feed it a sorted distribution through standard in with various values for n using a command like: 
 
